@@ -1,6 +1,6 @@
 const exploratoryBuilds = [
   {
-    title: "中国語CALL 自動再生ツール",
+    title: "中国語CALL auto Player",
     description:
       "京都大学の中国語CALL教材サイトから課・チャプタを選ぶだけで、指定範囲の音声をサーバー側で取得しローカルで連続再生できる Flask UI。キャッシュで同じ課題の再取得を最小化し、教材構成が変わった場合もエラーからすぐに修正ポイントを特定できるよう実装。",
     stack: "Flask / Python 3.10 / lru_cache",
